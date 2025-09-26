@@ -40,7 +40,7 @@
       <div class="head-info">
         <h1 id="nombre">Estudiante de la UNSA</h1>
         <p id="carrera">Carrera: Ingeniería de Sistemas</p>
-        <p class="small">Facultad: ciencias e ingeniería • Arequipa (ejemplo)</p>
+        <p class="small">Facultad: Ingenieria de produccion y servicios • Arequipa </p>
       </div>
     </header>
 
@@ -112,10 +112,7 @@
       </aside>
     </main>
 
-    <footer>
-      <div class="small">Esta es una plantilla de presentación para un estudiante de la UNSA. Personalízala con tus datos reales.</div>
-    </footer>
-  </div>
+    
 
   <script>
     function agregarGusto(text){
@@ -131,15 +128,7 @@
       document.querySelector('.contact').reset();
     }
 
-    function editarTexto(){
-      const nuevo = prompt('Escribe una breve presentación (máx 300 caracteres):', document.getElementById('bio').textContent);
-      if(nuevo!==null) document.getElementById('bio').textContent = nuevo.slice(0,300);
-    }
-
-    function resetTexto(){
-      document.getElementById('bio').textContent = 'Hola — soy estudiante en la Universidad Nacional de San Agustín (UNSA). Me apasionan la programación, las matemáticas y la resolución de problemas. En mi tiempo libre disfruto leer, hacer caminatas y experimentar con proyectos de software.';
-      // opcional: resetear otros campos
-    }
+    
   </script>
 </body>
 </html>
