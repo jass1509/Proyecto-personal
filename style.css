@@ -185,3 +185,13 @@ footer {
 .side-menu a:hover{
   text-decoration: none;
 }
+
+/* estilos para modo oscuro */
+.dark{
+  background:#020617;
+  color:white;
+}
+/*para el v¿boton de cambiar modo*/
+.boton{
+  text-align: right;
+}

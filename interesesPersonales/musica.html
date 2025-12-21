@@ -5,30 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Música — Jonnier Angel</title>
 
-  <!-- Estilo externo compartido -->
+
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
-  <!-- Menú lateral -->
+<p style="text-align:center; font-size:17px;">Visitas a esta página: <span id="contador"></span></p>
+<div style="text-align:right; font-size:17px;">
+<button onclick="cambiarTema()" id="boton para cambiar fondo">Cambiar Tema</button>
+</div>
+  
   <nav>
     <a href="../index.html">Inicio</a>
-    <a href="futbol.html" class="active">Fútbol</a>
+    <a href="futbol.html">Fútbol</a>
     <a href="lecturas.html">Lecturas</a>
     <a href="musica.html">Música</a>
-    <a href="programacion.html">Programación</a>
+    <a href="freestyle.html">Freestyle</a>
+    <a href="programacion.html">Proyectos</a>
   </nav>
 
-  <!-- Contenido principal -->
+  
   <div class="container">
-    <h1>Mi Música Favorita 🎧</h1>
+    <h1>Mi Música Favorita </h1>
 
     <p style="text-align:center; font-size:17px;">
       La música me acompaña en diferentes momentos del día: al estudiar, relajarme
       o motivarme. Estos son algunos géneros y artistas que más disfruto.
     </p>
 
-    <!-- Géneros musicales -->
+    
     <div class="section-title">Géneros Musicales</div>
     <div class="card-grid">
 
@@ -52,7 +56,7 @@
 
     </div>
 
-    <!-- Artistas favoritos -->
+    <!-- artistas favoritos -->
     <div class="section-title">Artistas Favoritos</div>
     <div class="card-grid">
 
@@ -124,6 +128,7 @@
 
 
   </div>
+<script src="../script.js"></script>
 
 </body>
 </html>
